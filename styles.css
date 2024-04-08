@@ -39,3 +39,48 @@ a.nav-link {
 #navbar li {
   margin-bottom: 1rem; /* Add space between list items */
 }
+/* Main Content  */
+main {
+  margin-left: 200px; /* Make space for the fixed navbar */
+  padding: 1rem;
+}
+
+.main-section {
+  margin-bottom: 0.1rem; /* Add space between sections */
+  padding: 1rem;
+}
+.main-section > ul > li {
+  margin-bottom: 5px;
+}
+
+/* Code formatting */
+code {
+  background-color: #f0f0f0;
+  margin-top: 10px;
+  padding: 0.2rem;
+}
+
+footer {
+  margin-left: 260px;
+}
+
+footer > a {
+  text-decoration: none;
+  color: #56495f;
+}
+
+/* Responsive Design */
+/* Mac air 2022 */
+@media (max-width: 2560px) and (min-width: 350px) {
+  #navbar {
+    width: 200px;
+  }
+}
+
+/* Iphone 13 */
+@media (max-width: 187px) {
+  #navbar {
+    width: 200px;
+    position: sticky;
+  }
+}
